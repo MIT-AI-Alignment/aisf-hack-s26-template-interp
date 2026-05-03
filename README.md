@@ -14,15 +14,15 @@ Welcome to the Interpretability track. This repo is your team's workspace for th
 - `writeup/writeup.md` — fill this in during the final 30 minutes
 
 ## RunPod setup
-1. Get your API key from the API keys doc in Slack
+1. Request an API key in the #aisf-hack-spring26-compute-request Slack channel
 2. Deploy a pod: RunPod PyTorch 2.2 template, RTX 4090
 3. Name your pod: `[teamname]-interp`
 4. Clone your repo and install deps — run these in the pod terminal:
 
 ---
 
-    git clone https://github.com/[maia-org]/[your-repo]
-    cd [your-repo]
+    git clone https://github.com/MIT-AI-Alignment/aisf-hack-[teamname]-interp
+    cd aisf-hack-[teamname]-interp
     pip install -r requirements.txt
 
 ---
@@ -50,6 +50,6 @@ Welcome to the Interpretability track. This repo is your team's workspace for th
 - Don't let your pod run idle during lunch and demos
 
 ## Stuck?
-Post in `#aisf-hack-s26-mentor-queue`:
-Template provided in the channel.
+Post in `#aisf-hack-spring26-mentor-queue`:
+Template message provided in the channel.
 
